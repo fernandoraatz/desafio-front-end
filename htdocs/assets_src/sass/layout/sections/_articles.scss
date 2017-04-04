@@ -1,0 +1,314 @@
+/*
+|--------------------------------------------------------------------------
+| Seções
+|--------------------------------------------------------------------------
+*/
+
+%sections{
+
+	padding: 32px 0;
+
+	.news{
+		display:flex;
+		flex-wrap: wrap;
+
+	} 
+
+	.section-title{
+		color:$title-color;
+		text-transform: uppercase;
+
+		@media #{$media-mobile}{
+    		padding-left:20px;
+  		}
+	}
+
+	.carregar-mais{
+		    text-align: right;
+		    text-transform: uppercase;
+		    font-weight: bold;
+		    border-top: 1px solid #cecece;
+		    border-bottom: 1px solid #cecece;
+		    padding: 10px 0;
+
+		    @media #{$media-mobile}{
+    			padding-right:20px;
+  		}
+
+	}
+}
+
+.main{
+	@extend %sections;
+	article{
+			&:nth-child(2),&:nth-child(4),&:nth-child(8){
+				margin-right:0;
+			}
+	}
+
+	@media #{$media-mobile}{
+    		padding-top:0;
+  	}
+
+
+
+}
+
+.brasil,
+.mundo{
+	@extend %sections;
+		article{
+				&:nth-child(4n+0){
+					margin-right:0; 
+				}
+		}
+
+		@media #{$media-mobile}{
+    		    padding: 10px 0 0 0;
+  	}
+
+
+
+}
+
+/*
+|--------------------------------------------------------------------------
+| Artigos de Noticias
+|--------------------------------------------------------------------------
+*/
+
+
+// NOTÍCIA
+
+%news{
+	margin-bottom:32px;
+	margin-right:32px;
+	position: relative;
+
+	 @media #{$media-mobile}{
+    		margin:0;
+  	}
+
+
+	.label{
+		text-transform:uppercase;
+		color: $title-color;
+		font-weight:bold;
+		font-size: 0.6em;
+	}
+
+	.title{
+		font-size:1.1em;
+		margin-bottom: 7px;
+		font-weight: bold;
+	}
+
+	.description{
+		font-size: 0.9em;
+		line-height: 17px;
+	}
+
+	.overlay{
+		background-color: rgba(0,0,0,0.58);
+		bottom: 0;
+		left: 0;
+		position: absolute;
+		right: 0;
+		top: 0;
+		width: 100%;
+		height: 99%;
+		display:none;
+	}
+
+	.icon-share{
+		    position: absolute;
+		    bottom: 0;
+		    color: $text-color;
+		    font-size: 1.5em;
+	}
+
+	.news-thumb{
+		    position: relative;
+	}
+
+
+
+}
+
+// NOTÍCIA GRANDE
+
+.news-large{
+	@extend %news;
+	flex-basis: 464px;
+
+	@media #{$media-mobile}{
+    		flex-basis: 100%;
+  	}
+
+	.news-description{
+		    position: absolute;
+		    bottom: 6px;
+		    z-index: 10;
+		    padding: 0 20px;
+
+		     @media #{$media-mobile}{
+    				position: static;
+    				padding-top: 10px;
+  			}
+	}
+
+	.label, .title, .description{
+		color:#fff;
+
+		@media #{$media-mobile}{
+    				color:$text-color;
+  		}
+	}
+
+	.title{
+		font-size: 1.31em;
+
+		@media #{$media-mobile}{
+    				color:$title-color;
+  		}
+	}
+
+	.overlay{
+		display:block;
+	}
+
+	.icon-share{
+		    position: absolute;
+		    right: 17px;
+		    top: -154px;
+		    color: #fff;
+		    font-size: 1.5em;
+
+		    @media #{$media-mobile}{
+    				top: 15px;
+  			}
+	}
+
+}
+
+// NOTÍCIA MÉDIA
+
+.news-medium{
+	@extend %news;
+    flex-basis: 464px;
+    display:flex;
+
+    @media #{$media-mobile}{
+    		flex-basis: 100%;
+    		padding:20px;
+    		border-top: 1px solid #cecece;
+  	}
+
+    .news-thumb{
+		flex-basis: 50%;
+
+		@media #{$media-mobile}{
+    				flex-basis: 40%;
+  			}
+    }
+
+    .news-description{
+		flex-basis: 50%;
+		padding-left: 18px;
+
+		@media #{$media-mobile}{
+    				flex-basis: 60%;
+  		}
+    }
+
+    .title{
+    	font-size:1.1em;
+    	margin-bottom: 15px;
+
+    	@media #{$media-mobile}{
+    		font-size: 1em;
+    	}
+    }
+
+    .description{
+
+    	@media #{$media-mobile}{
+    		font-size: 0.8em;
+    		margin-bottom: 0;
+    	}
+
+    }
+
+    .icon-share{
+    		@media #{$media-mobile}{
+    				    left: 111px;
+    					bottom: 25px;
+  			}
+    }
+
+}
+
+// NOTÍCIA PEQUENA
+
+.news-small{
+	@extend %news;
+    flex-basis: 216px;
+    height:260px;
+    
+
+    @media #{$media-mobile}{
+    		display:flex;
+    		flex-basis: 100%;
+    		padding:20px;
+    		border-top: 1px solid #cecece;
+    		height:182px;
+  	}
+
+  	&:first-child{
+  			  @media #{$media-mobile}{
+					border-top:none;
+  			  }
+  	}
+
+     .title{
+    	margin-bottom: 5px;
+
+    	@media #{$media-mobile}{
+    		font-size:0.9em;
+  		}
+    }
+
+    .news-thumb{
+
+		@media #{$media-mobile}{
+    				flex-basis: 50%;
+  		}
+    }
+
+    .news-description{
+
+		@media #{$media-mobile}{
+    		flex-basis: 50%;
+    		position: static;
+    		padding-left: 18px; 
+  		}
+    }
+
+    .description{
+    	@media #{$media-mobile}{
+    		
+	    	position: absolute;
+		    width: 70%; 
+		    left: 20px;
+		    bottom: 10px;
+		 }
+    }
+
+    .icon-share{
+    	@media #{$media-mobile}{ 
+			right: 28px;
+    		bottom: 10px;
+    	}
+    }
+
+}

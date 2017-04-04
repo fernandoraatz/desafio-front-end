@@ -8,56 +8,64 @@
 					"label": "Brasil",
 					"title": "Nullan arcu lacus, tincidunt vel efficitur",
 					"description": "Vivamus vitae mauris eget enim gravida eleifend. Nunc et diam dolor. Suspendisse dapibus turpis erim",
-					"image": "464x261-1.jpeg"
+					"image": "464x261-1.jpeg",
+					"class": "news-large"
 				},
 				{
 					"url": "#",
 					"label": "Moda",
 					"title": "Aenean quis risus vel nulla maximus",
 					"description": "Quisque aliquet euismod justo, sit amet sodales eros sagittis ut. Aenean faucibus, est nec lobortis euismod, magna metus ultrices",
-					"image": "464x261-2.jpeg"
+					"image": "464x261-2.jpeg",
+					"class": "news-large"
 				},
 				{
 					"url": "#",
 					"label": "Comportamento",
 					"title": "Suspendisse dapibus turpis enim, ac commodo",
 					"description": "Nullan ac turpis tellus. Morbi tincidunt nulla in massa condimentum, vitae scelerisque",
-					"image": "216x216-1.jpeg"
+					"image": "216x216-1.jpeg",
+					"class": "news-medium"
 				},
 				{
 					"url": "#",
 					"label": "Estilo",
 					"title": "Ut eleifend bibendum eros vitae volupat odio porta",
 					"description": "Integer suscipit tellus ut elit mollis vehicula. Nullam arcu lacus, tincidunt vel efficitur eget, venenatis sit amet nisi. Fusce ut faucibus uma",
-					"image": "216x216-2.jpeg"
+					"image": "216x216-2.jpeg",
+					"class": "news-medium"
 				},
 				{
 					"url": "#",
 					"label": "Globo Rural",
 					"title": "Ut eleinfend bibendum eros vitae volupat odio",
 					"description": "Integer suscipit tellus ut elit mollis vehicula. Nullan arcu lacus",
-					"image": "216x121-1.jpeg"
+					"image": "216x121-1.jpeg",
+					"class": "news-small"
 				},
 				{
 					"url": "#",
 					"label": "Rio 2016",
 					"title": "Praesent pulvinar et metus id consequat",
 					"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-					"image": "216x121-2.jpeg"
+					"image": "216x121-2.jpeg",
+					"class": "news-small"
 				},
 				{
 					"url": "#",
 					"label": "Educação",
 					"title": "Nunc et diam dolor. Suspendisse dapibus",
 					"description": "Quaisque aliquet euismod justo",
-					"image": "216x121-3.jpeg"
+					"image": "216x121-3.jpeg",
+					"class": "news-small"
 				},
 				{
 					"url": "#",
 					"label": "Eco",
 					"title": "Donec vitae elit sit amet augue laoreet porttitor",
 					"description": "Aenean faucibus, est nec lobortis euismod, magna metus",
-					"image": "216x121-4.jpeg"
+					"image": "216x121-4.jpeg",
+					"class": "news-small"
 				}
 			]
 		},

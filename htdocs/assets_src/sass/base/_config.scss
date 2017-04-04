@@ -1,0 +1,61 @@
+/*
+|--------------------------------------------------------------------------
+| Caminhos
+|--------------------------------------------------------------------------
+*/
+
+$image-path: '../images';			// Caminho das imagens
+$font-path: '../fonts';			// Caminho das fontes
+
+/*
+|--------------------------------------------------------------------------
+| Width Principal
+|--------------------------------------------------------------------------
+*/
+
+$main-width:  960px;			   // Tamanho do Container 
+
+/*
+|--------------------------------------------------------------------------
+| Cores
+|--------------------------------------------------------------------------
+*/
+
+$bg-color:			 #ffffff;     	// Cor Background  
+
+$text-color:		 #090909;		// Cor Texto
+$title-color:		 #004861;		// Cor Títulos 
+$subtitle-color:	 #090909;		// Cor Subtitulos
+$link-color: 		 #004861;   	// Cor Links 
+
+$theme-color-01:	 #004861;		// Cor 01
+$theme-color-02:	 #d5e11f;		// Cor 02
+
+$selection-bg: 	 	 #ffffff;   	// Cor Background Selection
+$selection-color: 	 #555555;   	// Cor Selection
+
+
+/*
+|--------------------------------------------------------------------------
+| Fontes
+|--------------------------------------------------------------------------
+*/
+    
+$main-font : 	'Arial';		// Fonte Principal
+$regular-font:  'Arial';		// Fonte Regular
+$bold-font: 	'Arial';		// Fonte com Bold
+$light-font: 	'Arial';		// Fonte com Italico
+
+/*
+|--------------------------------------------------------------------------
+| Media Queries
+|--------------------------------------------------------------------------
+*/
+
+$media-desk: 		"only screen and (max-width: 1170px)"; 
+$media-tablet-lg: 	"only screen and (max-width: 960px)"; 
+$media-tablet: 		"only screen and (max-width: 770px)"; 
+$media-mobile-lg: 	"only screen and (max-width: 640px)"; 
+$media-mobile: 		"only screen and (max-width: 480px)"; 
+
+
