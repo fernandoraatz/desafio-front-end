@@ -152,9 +152,11 @@
 .news-large{
 	@extend %news;
 	flex-basis: 464px;
+	height:265px;
 
 	@media #{$media-mobile}{
     		flex-basis: 100%;
+    		height:auto;
   	}
 
 	.news-description{
@@ -209,11 +211,13 @@
 	@extend %news;
     flex-basis: 464px;
     display:flex;
+    height:265px;
 
     @media #{$media-mobile}{
     		flex-basis: 100%;
     		padding:20px;
     		border-top: 1px solid #cecece;
+    		height:auto;
   	}
 
     .news-thumb{
