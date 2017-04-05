@@ -40,7 +40,7 @@
 					"label": "Globo Rural",
 					"title": "Ut eleinfend bibendum eros vitae volupat odio",
 					"description": "Integer suscipit tellus ut elit mollis vehicula. Nullan arcu lacus",
-					"image": "216x121-1.jpeg",
+					"image": "216X121-1.jpeg",
 					"class": "news-small"
 				},
 				{
@@ -48,7 +48,7 @@
 					"label": "Rio 2016",
 					"title": "Praesent pulvinar et metus id consequat",
 					"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-					"image": "216x121-2.jpeg",
+					"image": "216X121-2.jpeg",
 					"class": "news-small"
 				},
 				{
@@ -56,7 +56,7 @@
 					"label": "Educação",
 					"title": "Nunc et diam dolor. Suspendisse dapibus",
 					"description": "Quaisque aliquet euismod justo",
-					"image": "216x121-3.jpeg",
+					"image": "216X121-3.jpeg",
 					"class": "news-small"
 				},
 				{
@@ -64,7 +64,7 @@
 					"label": "Eco",
 					"title": "Donec vitae elit sit amet augue laoreet porttitor",
 					"description": "Aenean faucibus, est nec lobortis euismod, magna metus",
-					"image": "216x121-4.jpeg",
+					"image": "216X121-4.jpeg",
 					"class": "news-small"
 				}
 			]
@@ -77,56 +77,56 @@
 					"label": "Natureza",
 					"title": "Proin mollis auctor orci id aliquet",
 					"description": "Donec nec elementum massa. Proin nulla lacus, imperdiet",
-					"image": "216x121-8.jpeg"
+					"image": "216X121-8.jpeg"
 				},
 				{
 					"url": "#",
 					"label": "Cidades",
 					"title": "Cras condimentum fringilla sem vitae",
 					"description": "Nunc aliquet leo sem, nec sagittis velit tempor vitae",
-					"image": "216x121-12.jpeg"
+					"image": "216X121-12.jpeg"
 				},
 				{
 					"url": "#",
 					"label": "Feriado",
 					"title": "Donec varius vehicula nunc, ut dapibus",
 					"description": "Curabitur commodo lectus neque, a lacinia turpis",
-					"image": "216x121-9.jpeg"
+					"image": "216X121-9.jpeg"
 				},
 				{
 					"url": "#",
 					"label": "Agricultura",
 					"title": "Pellentesque blandit condimentum est",
 					"description": "Phasellus vulputate egestas lectus, in viverra lectus",
-					"image": "216x121-11.jpeg"
+					"image": "216X121-11.jpeg"
 				},
 				{
 					"url": "#",
 					"label": "Brasília",
 					"title": "Pellentesque blandit condimentum est",
 					"description": "Phasellus vulputate egestas lectus, in viverra lectus",
-					"image": "216x121-11.jpeg"
+					"image": "216X121-11.jpeg"
 				},
 				{
 					"url": "#",
 					"label": "Lava-a-jato",
 					"title": "Donec varius vehicula nunc, ut dapibus",
 					"description": "Curabitur commodo lectus neque, a lacinia turpis",
-					"image": "216x121-9.jpeg"
+					"image": "216X121-9.jpeg"
 				},
 				{
 					"url": "#",
 					"label": "Comércio",
 					"title": "Cras condimentum fringilla sem vitae",
 					"description": "Nunc aliquet leo sem, nec sagittis velit tempor vitae",
-					"image": "216x121-12.jpeg"
+					"image": "216X121-12.jpeg"
 				},
 				{
 					"url": "#",
 					"label": "Violência",
 					"title": "Proin mollis auctor orci id aliquet",
 					"description": "Donec nec elementum massa. Proin nulla lacus, imperdiet",
-					"image": "216x121-8.jpeg"
+					"image": "216X121-8.jpeg"
 				}
 			]
 		},
@@ -138,49 +138,49 @@
 					"label": "EUA",
 					"title": "Aenean faucibus, est nec lobortis",
 					"description": "Euismod, magna metus ultrices justo, at ornare ex libero vitae est",
-					"image": "216x121-6.jpeg"
+					"image": "216X121-6.jpeg"
 				},
 				{
 					"url": "#",
 					"label": "Turismo",
 					"title": "Class aptent taciti sociosqu ad litora",
 					"description": "Proin ut eros sit amet libero pellentesque cursus",
-					"image": "216x121-10.jpeg"
+					"image": "216X121-10.jpeg"
 				},
 				{
 					"url": "#",
 					"label": "Internacional",
 					"title": "Commodo lectus neque, a lacinia turpis euismod",
 					"description": "Venenatis, mi id vehicula porta, tortor urna volutpat",
-					"image": "216x121-7.jpeg"
+					"image": "216X121-7.jpeg"
 				},
 				{
 					"url": "#",
 					"label": "ONU",
 					"title": "Blandit, ultrices vehicula nunc sagittis",
 					"description": "Consequat id. Vivamus augue ligula, vehicula",
-					"image": "216x121-5.jpeg"
+					"image": "216X121-5.jpeg"
 				},
 				{
 					"url": "#",
 					"label": "Oriente Médio",
 					"title": "Blandit, ultrices vehicula nunc sagittis",
 					"description": "Consequat id. Vivamus augue ligula, vehicula",
-					"image": "216x121-5.jpeg"
+					"image": "216X121-5.jpeg"
 				},
 				{
 					"url": "#",
 					"label": "Israel",
 					"title": "Commodo lectus neque, a lacinia turpis euismod",
 					"description": "Venenatis, mi id vehicula porta, tortor urna volutpat",
-					"image": "216x121-7.jpeg"
+					"image": "216X121-7.jpeg"
 				},
 				{
 					"url": "#",
 					"label": "Síria",
 					"title": "Class aptent taciti sociosqu ad litora",
 					"description": "Proin ut eros sit amet libero pellentesque cursus",
-					"image": "216x121-10.jpeg"
+					"image": "216X121-10.jpeg"
 				},
 				{
 					"url": "#",
