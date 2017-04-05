@@ -10,19 +10,13 @@ APP.controller.General = {
 
         this.setup();
         this.trazerNoticias();
+        this.carregarMais();
 
     },
 
     setup : function () {
 
       
-    },
-
-    paginacao: function () {
-
-
-
-
     },
 
     trazerNoticias : function () {
@@ -34,7 +28,7 @@ APP.controller.General = {
                     dataType: 'json',
                     url: 'data.json',
 
-                    success: function (data) {
+                    success: function (data) {   
 
                         var mainTemplate = $('#main-template').html(),
                             brasilTemplate = $('#brasil-template').html(),
@@ -42,6 +36,8 @@ APP.controller.General = {
                             mainData = data.section[0], 
                             brasilData = data.section[1],
                             mundoData = data.section[2]; 
+
+                             console.log(brasilData);
 
                         $('.main .news').html(Mustache.render(mainTemplate, mainData));
                         $('.brasil .news').html(Mustache.render(brasilTemplate, brasilData));
@@ -55,6 +51,21 @@ APP.controller.General = {
 
 
 	},
+
+
+    carregarMais: function(){
+
+
+        $('.carregar-mais a').on('click', function(event) {
+
+            $(this).closest('section').find('.news').css('height', 'auto');
+            $(this).hide();
+            return false;
+
+        });
+
+
+    }
 
 
 
