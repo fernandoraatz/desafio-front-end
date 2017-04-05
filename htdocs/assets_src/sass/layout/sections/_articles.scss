@@ -211,7 +211,7 @@
 	@extend %news;
     flex-basis: 464px;
     display:flex;
-    height:265px;
+    height:220px;
 
     @media #{$media-mobile}{
     		flex-basis: 100%;
